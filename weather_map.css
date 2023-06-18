@@ -1,0 +1,153 @@
+/*GOOGLE FONT IMPORT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*MAIN HTML ELEMENTS AND HEADERS*/
+
+h1 {
+    text-shadow: 2px 2px #57bdff;
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    padding-top: 15px;
+    background-color: #005fc4;
+    color: #FFF;
+    height: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: #57bdff;
+}
+
+
+h6 {
+    /*background-color: #dadada;*/
+    width: 100%;
+}
+
+/*5-DAY FORECAST CARDS*/
+
+.forecast-card {
+    font-family: 'Tilt Warp', sans-serif;
+    display: inline-block;
+    color: white;
+    width: 150px;
+    height: auto;
+    box-shadow: 5px 10px #464646;
+    background-color: #005fc4;
+    border: 4px ridge #8d8d8d;
+
+}
+
+
+.weather-icon {
+    height: 10px;
+    width: 15px;
+    margin-bottom: 50px;
+    margin-left: 48px;
+
+}
+
+
+#weather-card {
+    font-family: 'Tilt Warp', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.date-bg {
+    text-decoration: underline;
+
+}
+
+/*MAPBOX*/
+
+#map {
+    width: 75%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #005fc4;
+}
+
+.map-click-text {
+    font-size: large;
+    font-weight: bold;
+    color: #005fc4;
+}
+
+/*CURRENT WEATHER DETAILS*/
+
+#weather-forecast-small {
+    font-family: 'Tilt Warp', sans-serif;
+    color: white;
+    width: 210px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    box-shadow: 5px 10px #464646;
+    background-color: #005fc4;
+    border: 4px ridge #8d8d8d;
+}
+
+.current-weather-details {
+    font-family: 'Tilt Warp', sans-serif;
+    color: white;
+    width: 210px;
+    height: 180px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    box-shadow: 5px 10px #464646;
+    background-color: #005fc4;
+    border: 4px ridge #8d8d8d;
+}
+
+#weather-forecast-details {
+    text-shadow: 2px 2px #005fc4;
+    font-family: 'Tilt Warp', sans-serif;
+    margin-top: .6em;
+    background-color: #57bdff;
+    border-top: 7px dotted #005fc4;
+    border-right: 0;
+    border-left: 0;
+    border-left: 0;
+}
+
+.bottom-weather-forecast {
+
+}
+
+/*INPUT AND SUBMIT BUTTON*/
+
+#searchInput {
+    font-family: 'Tilt Warp', sans-serif;
+    border: 0;
+    border-radius: 3px;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #83efff;
+    box-shadow: 0 0 10px #83efff;
+}
+
+#myBtn {
+    font-family: 'Tilt Warp', sans-serif;
+    background-color: dodgerblue;
+    border: 3px solid #005fc4;
+    border-radius: 3px;
+}
+
+#myBtn:hover {
+    color: white;
+    box-shadow: 0 0 20px #83efff;
+}
+
